@@ -234,50 +234,139 @@ export const getWeeklyDetails = (): WeeklyDetail[] => {
     return [
         {
             weekNumber: "Week 1 (Jan 1-7)",
-            summary: "Focus on bug fixes and core feature development across multiple projects",
+            summary:
+                "Focused on bug fixes, authentication flow improvements, and UI development across multiple projects.",
             keyLearnings: [
-                "API integration best practices",
-                "Authentication flow optimization",
+                "API integration with LinkedIn",
+                "Authentication flow debugging",
+                "Printer alignment fixes",
                 "Frontend-backend coordination",
             ],
             majorTasks: [
                 "Fixed GuestsTable bug in MakeMyPass",
                 "Developed LinkedIn share backend for Hoogo",
                 "Enhanced authentication flow",
+                "Implemented email validation",
+                "Refactored project directory structure",
             ],
             challenges: [
-                "Complex bug in GuestsTable module",
+                "Complex authentication bugs",
                 "Printer alignment issues",
-                "Authentication flow bugs",
+                "Form submission tracking errors",
             ],
             solutions: [
-                "Implemented robust error handling",
-                "Developed printer calibration system",
-                "Restructured authentication logic",
+                "Enhanced error handling and debugging",
+                "Implemented structured printer calibration",
+                "Fixed log handling for better form tracking",
             ],
         },
         {
             weekNumber: "Week 2 (Jan 8-14)",
-            summary: "Focused on UI development and production deployment",
+            summary:
+                "Focused on UI/UX development, production deployment, and authentication enhancements.",
             keyLearnings: [
+                "Code maintainability best practices",
                 "Production deployment strategies",
-                "UI/UX best practices",
-                "Code maintainability",
+                "UI/UX optimization",
+                "Dynamic form handling",
             ],
             majorTasks: [
-                "Created user interfaces for authentication",
-                "Implemented organization member CRUD",
-                "Prepared for production release",
+                "Developed organization member CRUD",
+                "Implemented form builder enhancements",
+                "Fixed public form validation issues",
+                "Deployed production release for JusVote and ScaleUp",
             ],
             challenges: [
-                "Complex design requirements",
-                "Code readability issues",
+                "Complex UI requirements for forms",
                 "Production deployment concerns",
+                "Password reset vulnerabilities",
             ],
             solutions: [
-                "Utilized AI code generators",
-                "Implemented new code structure",
-                "Created deployment checklist",
+                "Restructured code for better readability",
+                "Created deployment checklists",
+                "Strengthened authentication security",
+            ],
+        },
+        {
+            weekNumber: "Week 3 (Jan 15-21)",
+            summary:
+                "Focused on SnapShare integration, event workflow enhancements, and admin dashboard improvements.",
+            keyLearnings: [
+                "Backend-based event search implementation",
+                "Improving admin dashboard interactivity",
+                "Optimizing event redirection and UX",
+            ],
+            majorTasks: [
+                "Implemented authentication module in Promote",
+                "Enhanced ticket UI with vertical layouts",
+                "Integrated SnapShare with OTP validation",
+                "Developed modal-based image uploads",
+            ],
+            challenges: [
+                "Event display sequencing issues",
+                "UI misalignment in event workflows",
+                "Backend API inconsistencies",
+            ],
+            solutions: [
+                "Refactored event search logic",
+                "Fixed UI misalignments for better UX",
+                "Streamlined API usage for consistency",
+            ],
+        },
+        {
+            weekNumber: "Week 4 (Jan 22-28)",
+            summary:
+                "Worked on multiple projects, Flutter learning, certificate generation, and critical bug fixes.",
+            keyLearnings: [
+                "Flutter development fundamentals",
+                "Optimizing production-level bug fixes",
+                "Frontend-backend synchronization",
+                "Enhancing real-time validation flows",
+            ],
+            majorTasks: [
+                "Implemented certificate generation",
+                "Fixed ticket code edit and file preview",
+                "Integrated per-ticket multi-select flow",
+                "Built team settings for event management",
+                "Started Flutter-based QR application development",
+            ],
+            challenges: [
+                "Ensuring real-time validation in forms",
+                "Fixing ticket code preservation issues",
+                "Implementing seamless certificate generation",
+            ],
+            solutions: [
+                "Enhanced validation logic in public forms",
+                "Improved storage and retrieval of ticket data",
+                "Structured certificate generation workflow",
+            ],
+        },
+        {
+            weekNumber: "Week 5 (Jan 29 - Feb 4)",
+            summary:
+                "Deepened Flutter learning, optimized MakeMyPass features, and worked on performance improvements.",
+            keyLearnings: [
+                "State management in Flutter",
+                "Advanced UI animations and transitions",
+                "Optimizing API response times",
+                "Refining multi-user workflows",
+            ],
+            majorTasks: [
+                "Enhanced QR application with scanning functionalities",
+                "Fixed multi-user authentication issues in MakeMyPass",
+                "Worked on reducing API latency",
+                "Refactored Flutter application architecture for better maintainability",
+                "Implemented dynamic role-based access control",
+            ],
+            challenges: [
+                "Handling state persistence in Flutter apps",
+                "Performance issues due to high API response times",
+                "Managing role-based authentication in large teams",
+            ],
+            solutions: [
+                "Used Flutter's Provider for state management",
+                "Implemented caching and optimized database queries",
+                "Refined authentication logic for better role handling",
             ],
         },
     ];
